@@ -1,0 +1,4 @@
+sign_mnist_test.csv
+sign_mnist_train.csv
+mlp_model.pkl
+mlp_model_12orientations.pkl
