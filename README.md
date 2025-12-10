@@ -2,7 +2,7 @@
 
 A machine learning project that uses a Multilayer Perceptron (MLP) neural network to classify American Sign Language (ASL) alphabet gestures from images. The project includes both image classification and real-time webcam recognition.
 
-![ASL Alphabet](https://storage.googleapis.com/kagglesdsdata/datasets/3258/5337/amer_sign2.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20251201%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20251201T201049Z&X-Goog-Expires=345600&X-Goog-SignedHeaders=host&X-Goog-Signature=45c4b5a18e1cedb8c59236c433510ad193dee235bd2b8b5847ff1a593f512f6be78d8f79889799f4884bcee3fd69fb6d6e44f881bf2554641a5664a0fe822446d0b22b0896ff04a65bf4ace757ff27520ef7c1bc239033136443a9093a1d5ef4d9803f007abe850fb57237e19482ef872993f18da2f7135059d22f41a1e95e3a0d2c0053c05f4de8cd1f7f5085a22e9a539ae6a3ee124c3b23c7993d2875332c8e3320d18ff21a6b94408fadf6eb0cd1159a69926bfef1d88a77e5811da63f9b2a496ffb19efecc883d8c0352cd2db17c22f8313e9d1765b8b6ba31ff9b84b287bd2f2d28746322ee7cc67c2e02b3e942ac957db54f5c2f17b50b5c756a1a231)
+![ASL Alphabet](https://storage.googleapis.com/kagglesdsdata/datasets/3258/5337/amer_sign2.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20251210%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20251210T231512Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=199c0116793ed138c1db0dba747682ca49a72d90c6ce3e8e23c678c84e23aadc262313dfd51f9ea8d9a249a6fc71c32992f89b62b3746ff63e14b5e7903b7a792e2bcba2dfed11237ffa04d0b9f5dd697ac5b4e684866e130f68bab9e27e3d31a93c63a558e11c6a858d35d6f750bf0c49e718dc05f4572705a116b3427a1c761d0e19dc8b6767c4da3a29084c20f3dfa680ccc3927d1eb5559e8927d8a998e80293f03cf0c1ae72b0335e36516d571f2f1ceb6045e2b0fd4309b2a2d0a9958b043263a0957d52b6d9d78ecee0febd5ade65dd19d9ee422ea27c782e8f27c4208bde2515356eb60d5ce0ab07bf7e2db19ebfa6996ac2c59bfa229caf4de84a21)
 
 ## Dataset
 
@@ -39,12 +39,14 @@ MLP_SignLanguage/
 ## Installation
 
 1. Clone this repository:
+
 ```bash
 git clone https://github.com/JosueVP17/mlp-sign-language.git
 cd MLP_SignLanguage
 ```
 
 2. Install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -71,6 +73,7 @@ jupyter notebook mlp.ipynb
 ```
 
 The notebook includes:
+
 - Data loading and preprocessing
 - HOG feature extraction with optimal parameters
 - MLP model training and hyperparameter tuning
@@ -118,6 +121,7 @@ This configuration produces a robust feature vector that captures edge orientati
 ### MLP Configuration
 
 The Multilayer Perceptron is configured with:
+
 - Input layer: HOG feature vector
 - Hidden layers: One layer with sigmoid activation
 - Output layer: 24 classes (one per letter)
@@ -126,6 +130,7 @@ The Multilayer Perceptron is configured with:
 ## Performance
 
 The model achieves high accuracy on the test set. Detailed metrics including:
+
 - Confusion matrix
 - Classification report
 
